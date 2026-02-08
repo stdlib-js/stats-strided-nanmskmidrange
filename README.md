@@ -50,13 +50,13 @@ The [**mid-range**][mid-range], or **mid-extreme**, is the arithmetic mean of th
 ## Usage
 
 ```javascript
-import nanmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@deno/mod.js';
+import nanmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@v0.1.1-deno/mod.js';
 ```
 
 #### nanmskmidrange( N, x, strideX, mask, strideMask )
@@ -159,7 +159,7 @@ var v = nanmskmidrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import nanmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@deno/mod.js';
+import nanmskmidrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmskmidrange@v0.1.1-deno/mod.js';
 
 var x = uniform( 10, -50.0, 50.0, {
     'dtype': 'float64'
